@@ -1,0 +1,164 @@
+/*font-family: 'VT323', monospace;
+
+
+
+font-family: 'Monoton', cursive;
+
+
+
+font-family: 'Syncopate', sans-serif;
+*/
+
+body {
+    text-align: center;
+    background: #777;
+    background-image: url("brimage2.jpg");
+    width: 1050px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Press Start 2P', monospace;
+    font-weight: bold;
+}
+
+p {
+    clear: both;
+    text-align: center;
+    font-family: 'Press Start 2P', monospace;
+}
+
+
+/*#cloud1{
+		border: 2px solid black;
+		background-image: url('assets/cloud1.png');
+		
+	}*/
+
+#startGame {
+    text-align: center;
+    font-family: 'Press Start 2P', monospace;
+    font-weight: bold;
+    border: 5px solid black;
+    border-radius: 2%;
+    padding: 10px 10px 10px 10px;
+    margin: 30px 0 5px 455px;
+    width: 100px;
+}
+
+#startGame:hover {
+    color: white;
+}
+
+#startGame:active {
+    color: red;
+}
+
+#time {
+    text-align: center;
+    font-family: 'Press Start 2P', monospace;
+    font-weight: bold;
+}
+
+#display {
+    clear: both;
+    color: #E16117;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 27px 0px 27px 0px;
+    background-color: #E75E15;
+    /*border: 5px solid black;*/
+    border-radius: 2%;
+    margin: 30px 0 5px 455px;
+    width: 85px;
+    background-image: url("box.png");
+    background-size: 87px 87px;
+    background-repeat: no-repeat;
+    text-shadow: 5px 4px black;
+}
+
+#container {
+    clear: both;
+    margin: 30px 0px 0px 0px;
+    padding: 30px 20px 0px 20px;
+    background: rbga(255, 0, 0, 0.5);
+    overflow: auto;
+    height: 800px;
+    /*opacity: 0.7;*/
+}
+
+#question {
+    font-family: 'Press Start 2P', monospace;
+    margin-top: 50px;
+    line-height: 2;
+    width: 700px;
+    margin: 30px 0 5px 150px;
+}
+
+
+/*.choices {
+		margin:0px 5px 0px 0px;
+	    
+		}*/
+
+#a {
+    font-family: 'Press Start 2P', monospace;
+    margin-top: 50px;
+}
+
+#a:hover {
+    color: white;
+}
+
+#a:active {
+    color: red;
+}
+
+#b {
+    font-family: 'Press Start 2P', monospace;
+    margin-top: 20px;
+}
+
+#b:hover {
+    color: white;
+}
+
+#b:active {
+    color: red;
+}
+
+#c {
+    font-family: 'Press Start 2P', monospace;
+    margin-top: 20px;
+}
+
+#c:hover {
+    color: white;
+}
+
+#c:active {
+    color: red;
+}
+
+#d {
+    font-family: 'Press Start 2P', monospace;
+    margin-top: 20px;
+}
+
+#d:hover {
+    color: white;
+}
+
+#d:active {
+    color: red;
+}
+
+#result {
+    font-size: 30px;
+    clear: both;
+    text-align: center;
+    margin: 155px 0px 0px 0px;
+    font-family: 'Press Start 2P', monospace;
+}
